@@ -103,23 +103,6 @@ a[3]();  //TypeError: a[3] is not a function
 ```
 
 #Ćwiczenia 4)
-*   Spójrz na ponirzszy przykład:
-function F() { 
-  function C() { 
-    return this; 
-  } 
-  return C(); 
- } 
- var o = new F(); 
-Wartość this ma referencję do obiektu globalnego lub do obiektu o ?
-20)	 Jaki będzie wynik wykonania poniższego kodu?
-```
-	 function C(){ 
-	  this.a = 1; 
-	  return false; 
-	 } 
-	 console.log(typeof new C());
-```
 *   Jaki jest wynik wykonania ponizszego kodu?
 ```
 c = [1,2, [1, 2]]; 

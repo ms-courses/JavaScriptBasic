@@ -22,11 +22,13 @@ Cwiczenia 1
     x= null; var x = x || 10;
     delete x; var x = x || 10;
 ---
-3)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli for. Do wyświetlenia na konsoli firebug użyj: console.log()
-
-4)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli while (do while). Do wyświetlenia na konsoli firebug użyj: console.log()
+3)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli for.
+-----------
+4)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli while (do while).
+-----------
 5)	Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
 var tab[1,2,3,10,5,100,29]
+-----------
 
 Ćwiczenia 2)
 6)	Skrypt z cwiczenia 4 zapisz jako funkcję.

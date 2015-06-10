@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-mfizz.css">
+
+    <!-- Custom styles for our template -->
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+
+</head>
+<body>
+<div>
+    <!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Button for smallest screens -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                <a class="navbar-brand" href="index.html"><img height="40px" src="assets/images/MainLogoWhite.png"
+                                                               alt="Mentor Software Logo"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li id="liHome" class="active"><a href="index.html">Home</a></li>
+                    <li id="liEvents"><a href="events.html">Events</a></li>
+                    <li id="liAjax"><a href="ajax/xhr.html">Ajax</a></li>
+                    <li id="liAjaxJq"><a href="ajaxjq/xhr.html">Ajax JQuery</a></li>
+
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- /.navbar -->
+
+
+<div class="container" style="padding-top: 150px;">
+        <div class="row">
+            <p>Moj paragraf</p>
+            <button id="but1" class="btn btn-default">Hide/Show</button>
+
+        </div>
+        <div class="row">
+            <form id="target" class="form-horizontal" ac>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="lastName" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="departament" placeholder="First Name">
+                </div>
+                <button class="btn btn-success" id="submit" type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript"
+        src="assets/js/lib/jquery-2.1.1.min.js"></script>
+<script>
+    $(document).ready(function()
+            {
+                $('#but1').click(function()
+                {
+                    $('p').toggle(1000);
+                });
+                $( "#target" ).submit(function( event ) {
+                    var firstName=$('#firstName').val();
+                    var lastName=$('#lastName').val();
+                    $('#departament').val('Departament is not correct');
+                    $('p').text(firstName + lastName);
+                    event.preventDefault();
+                });
+            }
+
+    );
+</script>
+</body>
+</html>

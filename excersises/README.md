@@ -103,7 +103,7 @@ a[3]();  //TypeError: a[3] is not a function
 ```
 
 #Ćwiczenia 4)
-19)	Spójrz na ponirzszy przykład:
+*   Spójrz na ponirzszy przykład:
 function F() { 
   function C() { 
     return this; 
@@ -113,17 +113,21 @@ function F() {
  var o = new F(); 
 Wartość this ma referencję do obiektu globalnego lub do obiektu o ?
 20)	 Jaki będzie wynik wykonania poniższego kodu?
+```
 	 function C(){ 
 	  this.a = 1; 
 	  return false; 
 	 } 
-	 console.log(typeof new C()); 
-21)	Jaki jest wynik wykonania ponizszego kodu? 
+	 console.log(typeof new C());
+```
+*   Jaki jest wynik wykonania ponizszego kodu?
+```
 c = [1,2, [1, 2]]; 
 c.sort(); 
 c.join('--'); 
-console.log(c); 
-22)	Załóżmy że obiekt String nie istnie i musimy stworzyć nowy o nazwie MyString który działa podbnie jak to możliwe do String. Nie używając żadnych metod wbudowanych dla łańcuchów znakowych. (Użyj ciągu znaków jako tablicy i petli for-in )
+console.log(c);
+```
+*	Załóżmy że obiekt String nie istnie i musimy stworzyć nowy o nazwie MyString który działa podbnie jak to możliwe do String. Nie używając żadnych metod wbudowanych dla łańcuchów znakowych. (Użyj ciągu znaków jako tablicy i petli for-in )
 Użyj poniższego kodu do przetestowania własnego obiektu:
 >>> var s = new MyString('hello'); 
 >>> s.length; 
@@ -174,10 +178,10 @@ var a = new MyArray(1,2,3,"test");
 
 Ćwiczenia 5)
 
-24)	 Stwórz obiekt o nazwie shape kóry ma właściwośc type i metodę getType();
-25)	 Stwórz konstruktor Triangle dla którego prototypem jest shape. Obiekt stworzony przez Triangle powinien mieć własne właściwości a,b,c
-26)	 Dodaj do prototypu nową metodę: getPerimeter(). 
-27)	 Test swój kod:
+*	 Stwórz obiekt o nazwie shape kóry ma właściwośc type i metodę getType();
+*	 Stwórz konstruktor Triangle dla którego prototypem jest shape. Obiekt stworzony przez Triangle powinien mieć własne właściwości a,b,c
+*	 Dodaj do prototypu nową metodę: getPerimeter().
+*	 Test swój kod:
 var t = new Triangle(1, 2, 3); 
 >>> var t = new Triangle(1, 2, 3); 
 >>> t.constructor 

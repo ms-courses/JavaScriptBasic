@@ -1,10 +1,11 @@
-var x = 0;
-function f() {
-  var x = 10;
+var licznik=0;
+function getNextLicznik()
+{
+  licznik++;
+  console.log(licznik);
 
-  console.log(x);
-  console.log(x);
+};
 
-}
-
-f();
+getNextLicznik();   //1
+getNextLicznik();   //2
+getNextLicznik();   //3

@@ -1,6 +1,6 @@
 # Cwiczenia 1
-1. Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
----
+1.  Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
+```
 	var a; typeof a;
 	var s = '1s'; s++;
     !!"false"
@@ -11,29 +11,29 @@
     false === ""
     typeof "2E+2"
     a = 3e+3; a++;
----
-2. Podaj wartości następujących operacji
----
+```
+2.  Podaj wartości następujących operacji
+```
     x=100; var x = x|| 10;
     x=0; var x  = x || 10;
     x= null; var x = x || 10;
     delete x; var x = x || 10;
----
-3. Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
+```
+3.  Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
 ---
 var tab=[1,2,3,10,5,100,29]
 ---
 -----------
 #Ćwiczenia 2)
-4.	Skrypt z cwiczenia 3 zapisz jako funkcję.
+4.  Skrypt z cwiczenia 3 zapisz jako funkcję.
 5.	Napisz funkcję która konwertuje kolor w zapisie szesnastkowym na kolor RGB "#0000FF" => rgb(0,0,255);
 Test poniższy kod
 
----
+```
 var a = getRGB("#00FF00");
 a; 
 "rgb(0, 255, 0)" 
----
+```
 6.	Co zostanie wypisane na konsoli po wykonaniu poniższych operacji
 	parseInt(1e1) 
 

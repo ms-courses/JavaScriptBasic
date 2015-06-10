@@ -1,6 +1,6 @@
 Cwiczenia 1
 ===
-1)Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
+1)  Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
 -----------
 ---
 	var a; typeof a;
@@ -14,8 +14,7 @@ Cwiczenia 1
     typeof "2E+2"
     a = 3e+3; a++;
 ---
------------
-2)Podaj wartości następujących operacji
+2)  Podaj wartości następujących operacji
 -----------
 ---
     x=100; var x = x|| 10;
@@ -23,7 +22,6 @@ Cwiczenia 1
     x= null; var x = x || 10;
     delete x; var x = x || 10;
 ---
------------
 3)	Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
 ---
 var tab[1,2,3,10,5,100,29]

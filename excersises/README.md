@@ -100,7 +100,7 @@ a[0]();  //0
 a[1]();  //1
 a[2]();  //2
 a[3]();  //TypeError: a[3] is not a function
-
+```
 
 #Ćwiczenia 4)
 19)	Spójrz na ponirzszy przykład:

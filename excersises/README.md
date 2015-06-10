@@ -1,6 +1,7 @@
 Cwiczenia 1
 ===
-1)	Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
+1)Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
+-----------
 ---
 	var a; typeof a;
 	var s = '1s'; s++;
@@ -13,12 +14,13 @@ Cwiczenia 1
     typeof "2E+2"
     a = 3e+3; a++;
 ---
-   2)	Podaj wartości następujących operacji
+2)Podaj wartości następujących operacji
+-----------
 ---
-    a)	x=100; var x = x|| 10;
-    b)	x=0; var x  = x || 10;
-    c)	x= null; var x = x || 10;
-    d)	delete x; var x = x || 10;
+    x=100; var x = x|| 10;
+    x=0; var x  = x || 10;
+    x= null; var x = x || 10;
+    delete x; var x = x || 10;
 ---
 3)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli for. Do wyświetlenia na konsoli firebug użyj: console.log()
 

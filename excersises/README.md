@@ -85,35 +85,24 @@ Funkcja ma być funkcją anonimową. (Samodefiniujaca)
 ```
 var tab= [2,4,7,33,121,1]
 ```
-7)	Zmien funkcję anonimową z punktu 6 na funkcję o nazwie findMaxAndMin.
------------
-8)  Napisz funkcję która deklaruje tablicę z punktu 10 i
+*   Zmien funkcję anonimową na funkcję o nazwie findMaxAndMin.
+*   Napisz funkcję która deklaruje tablicę z punktu 10 i
 wywołaj funkcję findMaxAndMin()  jako funkcję callback.
------------
-14)	 Napisz funkcję która deklaruje tablicę ale znajdowanie minumum i maximum
+*   Napisz funkcję która deklaruje tablicę ale znajdowanie minumum i maximum
 ma wykonywać funkcja prywatna.
------------
 
-Ćwiczenia 3)
-===
-16)	Przepisz skrypt z przykładu przyklad1.js tak aby pozbyć się zmiennej globalnej licznik.
-17)	 Używając closures napisz funkcję dla której będzie działał poniższy kod
->>>var a = fun16();    //Zwraca tablicę której elementami są referencje funkcji.
->>>a[0]();   
-0
->>>a[1]();
-1
->>>a[2]();  
-2
->>>a[3]();  
-TypeError: a[3] is not a function
-18)	Napisz funkcje o nazwie przyklad18 która implementuje ponizszy kod: 
+#Ćwiczenia 3)
+*   Przepisz skrypt z przykładu przyklad1.js tak aby pozbyć się zmiennej globalnej licznik.
+*   Używając closures napisz funkcję dla której będzie działał poniższy kod
+```
 var a = fun16();    //Zwraca tablicę której elementami są referencje funkcji.
-Jeśli a[i] jest funkcją;   
-a[i]();
+a[0]();  //0
+a[1]();  //1
+a[2]();  //2
+a[3]();  //TypeError: a[3] is not a function
 
 
-Ćwiczenia 4) 
+#Ćwiczenia 4)
 19)	Spójrz na ponirzszy przykład:
 function F() { 
   function C() { 

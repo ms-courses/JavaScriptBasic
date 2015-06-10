@@ -24,7 +24,7 @@ Cwiczenia 1
 ---
 3)	Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
 ---
-var tab[1,2,3,10,5,100,29]
+var tab=[1,2,3,10,5,100,29]
 ---
 -----------
 Ćwiczenia 2)
@@ -54,17 +54,24 @@ a;
 	isNaN(parseInt(NaN)); 
 
 
-4)	Co wyswietli funkcja alert
-var a = 1; 
- function f() { 
-  var a = 2; 
-  function n() { 
-    alert(a); 
-  } 
-	 n(); 
-	 } 
-	 f(); 
+4)	Co wyswietli funkcja console.log
+-----------
+
+---
+var a = 1;
+
+function f() {
+  var a = 2;
+  function n() {
+    console.log(a);
+  }
+  n();
+}
+f();
+---
 5)	Wszystkie przykłady wyświetlaja „Boo!” Wyjaśnij dlaczego ?
+-----------
+
 ---
 var f = alert;
 eval('f("Boo!")'); 
@@ -81,17 +88,23 @@ eval('e=f')('Boo!');
   } 
 )()('Boo!'); 
 ---
-11)	 Napisz funkcję która znajduje największy i najmniejszy element w tablicy oraz wypisuje je na konsoli. Funkcja ma być funkcją anonimową. 
-Tablica [2,4,7,33,121,1]
-12)	Zmien funkcję anonimową z punktu 11 na funkcję o nazwie findMaxAndMin.
-13)	 Napisz funkcję o nazwie przyklad13 która deklaruje tablicę z punktu 10 i wywołaj funkcję findMaxAndMin()  jako funkcję callback.
-14)	 Napisz funkcję o nazwie przyklad14 która deklaruje tablicę ale znajdowanie minumum i maximum ma wykonywać funkcja prywatna.
-15)	 Stwórz tak funkcję przyklad14 aby powyższy kod się wykonał
-var fun1=przyklad13()   //inicjalizacja tablicy [2,4,7,33,121,1]
-fun1();			   //print minumum i maximum
+6)	 Napisz funkcję która znajduje największy i najmniejszy element w tablicy oraz wypisuje je na konsoli.
+Funkcja ma być funkcją anonimową. (Samodefiniujaca)
+-----------
+---
+var tab= [2,4,7,33,121,1]
+--
+7)	Zmien funkcję anonimową z punktu 6 na funkcję o nazwie findMaxAndMin.
+-----------
+8)  Napisz funkcję która deklaruje tablicę z punktu 10 i
+wywołaj funkcję findMaxAndMin()  jako funkcję callback.
+-----------
+14)	 Napisz funkcję która deklaruje tablicę ale znajdowanie minumum i maximum
+ma wykonywać funkcja prywatna.
+-----------
 
-	
 Ćwiczenia 3)
+===
 16)	Przepisz skrypt z przykładu przyklad1.js tak aby pozbyć się zmiennej globalnej licznik.
 17)	 Używając closures napisz funkcję dla której będzie działał poniższy kod
 >>>var a = fun16();    //Zwraca tablicę której elementami są referencje funkcji.

@@ -25,9 +25,10 @@ Cwiczenia 1
 ---
 -----------
 3)	Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
+---
 var tab[1,2,3,10,5,100,29]
+---
 -----------
-
 Ćwiczenia 2)
 ===
 1)	Skrypt z cwiczenia 3 zapisz jako funkcję.

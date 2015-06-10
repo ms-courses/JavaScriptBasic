@@ -1,7 +1,9 @@
 Cwiczenia 1
 ===
-1)	Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug. 
-a)	var a; typeof a; 		
+1)	Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
+---
+	var a; typeof a;
+---
 b)	var s = '1s'; s++; 
 c)	!!"false"
 d)	!!undefined

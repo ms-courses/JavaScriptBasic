@@ -25,10 +25,8 @@ var tab=[1,2,3,10,5,100,29]
 ---
 -----------
 #Ćwiczenia 2)
-1)	Skrypt z cwiczenia 3 zapisz jako funkcję.
------------
-2)	Napisz funkcję która konwertuje kolor w zapisie szesnastkowym na kolor RGB "#0000FF" => rgb(0,0,255);
------------
+4.	Skrypt z cwiczenia 3 zapisz jako funkcję.
+5.	Napisz funkcję która konwertuje kolor w zapisie szesnastkowym na kolor RGB "#0000FF" => rgb(0,0,255);
 Test poniższy kod
 
 ---
@@ -36,7 +34,7 @@ var a = getRGB("#00FF00");
 a; 
 "rgb(0, 255, 0)" 
 ---
-3)	Co zostanie wypisane na konsoli po wykonaniu poniższych operacji
+6.	Co zostanie wypisane na konsoli po wykonaniu poniższych operacji
 	parseInt(1e1) 
 
 	parseInt('1e1') 
@@ -50,8 +48,7 @@ a;
 	isNaN(parseInt(NaN)); 
 
 
-4)	Co wyswietli funkcja console.log
------------
+7.	Co wyswietli funkcja console.log
 
 ---
 var a = 1;

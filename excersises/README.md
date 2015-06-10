@@ -19,14 +19,13 @@
     x= null; var x = x || 10;
     delete x; var x = x || 10;
 ```
-3.  Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
----
+*  Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
+```
 var tab=[1,2,3,10,5,100,29]
----
------------
+```
 #Ćwiczenia 2)
-4.  Skrypt z cwiczenia 3 zapisz jako funkcję.
-5.	Napisz funkcję która konwertuje kolor w zapisie szesnastkowym na kolor RGB "#0000FF" => rgb(0,0,255);
+*   Skrypt z cwiczenia 3 zapisz jako funkcję.
+*   Napisz funkcję która konwertuje kolor w zapisie szesnastkowym na kolor RGB "#0000FF" => rgb(0,0,255);
 Test poniższy kod
 
 ```
@@ -34,7 +33,8 @@ var a = getRGB("#00FF00");
 a; 
 "rgb(0, 255, 0)" 
 ```
-6.	Co zostanie wypisane na konsoli po wykonaniu poniższych operacji
+*   Co zostanie wypisane na konsoli po wykonaniu poniższych operacji
+```
 	parseInt(1e1) 
 
 	parseInt('1e1') 
@@ -46,11 +46,11 @@ a;
 	isFinite(20/0) 
 
 	isNaN(parseInt(NaN)); 
+```
 
+*   Co wyswietli funkcja console.log
 
-7.	Co wyswietli funkcja console.log
-
----
+```
 var a = 1;
 
 function f() {
@@ -61,7 +61,7 @@ function f() {
   n();
 }
 f();
----
+```
 5)	Wszystkie przykłady wyświetlaja „Boo!” Wyjaśnij dlaczego ?
 -----------
 

@@ -3,22 +3,23 @@ Cwiczenia 1
 1)	Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
 ---
 	var a; typeof a;
+	var s = '1s'; s++;
+    !!"false"
+    !!undefined
+    typeof -Infinity
+    10 % "0"
+    undefined == null
+    false === ""
+    typeof "2E+2"
+    a = 3e+3; a++;
 ---
-b)	var s = '1s'; s++; 
-c)	!!"false"
-d)	!!undefined
-e)	typeof -Infinity
-f)	10 % "0" 
-g)	undefined == null 
-h)	false === "" 
-i)	typeof "2E+2" 
-j)	a = 3e+3; a++;
-2)	Podaj wartości następujących operacji 
-a)	x=100; var x = x|| 10; 
-b)	x=0; var x  = x || 10; 
-c)	x= null; var x = x || 10; 
-d)	delete x; var x = x || 10;
-
+   2)	Podaj wartości następujących operacji
+---
+    a)	x=100; var x = x|| 10;
+    b)	x=0; var x  = x || 10;
+    c)	x= null; var x = x || 10;
+    d)	delete x; var x = x || 10;
+---
 3)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli for. Do wyświetlenia na konsoli firebug użyj: console.log()
 
 4)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli while (do while). Do wyświetlenia na konsoli firebug użyj: console.log()

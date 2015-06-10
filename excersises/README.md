@@ -22,22 +22,25 @@ Cwiczenia 1
     x= null; var x = x || 10;
     delete x; var x = x || 10;
 ---
-3)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli for.
 -----------
-4)	Napisz skrypt wyświetlający tabliczkę mnożenia używając tylko pętli while (do while).
------------
-5)	Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
+3)	Napisz skrypt znajdujący najwiekszy element w podanej tablicy i wyświetajacy go na konsoli
 var tab[1,2,3,10,5,100,29]
 -----------
 
 Ćwiczenia 2)
-6)	Skrypt z cwiczenia 4 zapisz jako funkcję.
-7)	Napisz funkcję która konwertuje kolor w zapisie szesnastkowym na kolor RGB "#0000FF" => rgb(0,0,255); 
-Test poniższy kod 
-var a = getRGB("#00FF00"); 
+===
+1)	Skrypt z cwiczenia 3 zapisz jako funkcję.
+-----------
+2)	Napisz funkcję która konwertuje kolor w zapisie szesnastkowym na kolor RGB "#0000FF" => rgb(0,0,255);
+-----------
+Test poniższy kod
+
+---
+var a = getRGB("#00FF00");
 a; 
 "rgb(0, 255, 0)" 
-8)	Co zostanie wypisane na konsoli po wykonaniu poniższych operacji 
+---
+3)	Co zostanie wypisane na konsoli po wykonaniu poniższych operacji
 	parseInt(1e1) 
 
 	parseInt('1e1') 
@@ -51,7 +54,7 @@ a;
 	isNaN(parseInt(NaN)); 
 
 
-9)	Co wyswietli funkcja alert 
+4)	Co wyswietli funkcja alert
 var a = 1; 
  function f() { 
   var a = 2; 
@@ -61,22 +64,23 @@ var a = 1;
 	 n(); 
 	 } 
 	 f(); 
-10)	Wszystkie przykłady wyświetlaja „Boo!” Wyjaśnij dlaczego ? 
-
-
-a)	var f = alert; 
+5)	Wszystkie przykłady wyświetlaja „Boo!” Wyjaśnij dlaczego ?
+---
+var f = alert;
 eval('f("Boo!")'); 
-
-b)	var e; 
+---
+---
+var e;
 var f = alert; 
 eval('e=f')('Boo!'); 
-
-c)	( 
+---
+---
+	(
   function(){ 
     return alert; 
   } 
 )()('Boo!'); 
-
+---
 11)	 Napisz funkcję która znajduje największy i najmniejszy element w tablicy oraz wypisuje je na konsoli. Funkcja ma być funkcją anonimową. 
 Tablica [2,4,7,33,121,1]
 12)	Zmien funkcję anonimową z punktu 11 na funkcję o nazwie findMaxAndMin.

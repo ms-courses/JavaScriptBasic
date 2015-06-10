@@ -14,6 +14,7 @@ Cwiczenia 1
     typeof "2E+2"
     a = 3e+3; a++;
 ---
+-----------
 2)Podaj wartości następujących operacji
 -----------
 ---

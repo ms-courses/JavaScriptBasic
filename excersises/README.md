@@ -62,31 +62,29 @@ function f() {
 }
 f();
 ```
-5)	Wszystkie przykłady wyświetlaja „Boo!” Wyjaśnij dlaczego ?
------------
+*   Wszystkie przykłady wyświetlaja „Boo!” Wyjaśnij dlaczego ?
 
----
+```
 var f = alert;
 eval('f("Boo!")'); 
----
----
+```
+```
 var e;
 var f = alert; 
 eval('e=f')('Boo!'); 
----
----
+```
+```
 	(
   function(){ 
     return alert; 
   } 
 )()('Boo!'); 
----
-6)	 Napisz funkcję która znajduje największy i najmniejszy element w tablicy oraz wypisuje je na konsoli.
+```
+*   Napisz funkcję która znajduje największy i najmniejszy element w tablicy oraz wypisuje je na konsoli.
 Funkcja ma być funkcją anonimową. (Samodefiniujaca)
------------
----
+```
 var tab= [2,4,7,33,121,1]
---
+```
 7)	Zmien funkcję anonimową z punktu 6 na funkcję o nazwie findMaxAndMin.
 -----------
 8)  Napisz funkcję która deklaruje tablicę z punktu 10 i

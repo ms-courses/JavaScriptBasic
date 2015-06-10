@@ -1,5 +1,5 @@
 # Cwiczenia 1
-1.  Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
+*  Podaj wyniki wykonania operacji w konsoli JS. Uzyj firebug.
 ```
 	var a; typeof a;
 	var s = '1s'; s++;
@@ -12,7 +12,7 @@
     typeof "2E+2"
     a = 3e+3; a++;
 ```
-2.  Podaj wartości następujących operacji
+*  Podaj wartości następujących operacji
 ```
     x=100; var x = x|| 10;
     x=0; var x  = x || 10;

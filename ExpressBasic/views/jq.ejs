@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<p>Aplikacja</p>
+<div id="divLoad"></div>
+<button id="load">Load</button>
+<table>
+    <thead>
+        <th>Fn</th>
+        <th>Ln</th>
+    </thead>
+    <tbody id="tableData">
+    </tbody>
+</table>
+<p id="erFn">First name is required</p>
+<p id="erLn">Last name is required</p>
+<form novalidate>
+    <input type="text" id="inFn">
+    <input type="text" id="inLn">
+</form>
+<button class='btn' id="save">Save</button>
+</body>
+<script src="assets/jquery/dist/jquery.min.js"></script>
+<script src="javascripts/appjq.js"></script>
+</html>

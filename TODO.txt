@@ -1,0 +1,18 @@
+//Przeniesc od Advanced
+*   Spójrz na ponirzszy przykład:
+function F() {
+  function C() {
+    return this;
+  }
+  return C();
+ }
+ var o = new F();
+Wartość this ma referencję do obiektu globalnego lub do obiektu o ?
+20)	 Jaki będzie wynik wykonania poniższego kodu?
+```
+	 function C(){
+	  this.a = 1;
+	  return false;
+	 }
+	 console.log(typeof new C());
+```

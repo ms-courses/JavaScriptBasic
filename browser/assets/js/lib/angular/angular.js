@@ -15016,19 +15016,7 @@ function formatNumber(number, pattern, groupSep, decimalSep, fractionSize) {
 
     var i, pos = 0,
         lgroup = pattern.lgSize,
-        group = pa                                                                                                                                                                                       length < fractionSize) {
-      fraction += '0';
-    }
-
-    if (fractionSize && fractionSize !== "0") formatedText += decimalSep + fraction.substr(0, fractionSize);
-  } else {
-
-    if (fractionSize > 0 && number > -1 && number < 1) {
-      formatedText = number.toFixed(fractionSize);
-    }
-  }
-
-  parts.push(isNegative ? pattern.negPre : pattern.posPre);
+        group = pa                                                                                                                                                                                       negPre : pattern.posPre);
   parts.push(formatedText);
   parts.push(isNegative ? pattern.negSuf : pattern.posSuf);
   return parts.join('');
@@ -22641,4 +22629,4 @@ var styleDirective = valueFn({
 
 })(window, document);
 
-!window.angular.$$csp() && window.angular.element(document).find('head').prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\\:form{display:block;}</style>');                                                                                                                                                                                                                                                                                                                                         
+!window.angular.$$csp() && window.angular.element(document).find('head').prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\\:form{display:block;}</style>');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

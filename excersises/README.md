@@ -65,18 +65,18 @@ f();
 *   Wszystkie przykłady wyświetlaja „Boo!” Wyjaśnij dlaczego ?
 
 ```
-var f = alert;
+var f = console.log;
 eval('f("Boo!")'); 
 ```
 ```
 var e;
-var f = alert; 
+var f = console.log;
 eval('e=f')('Boo!'); 
 ```
 ```
 	(
   function(){ 
-    return alert; 
+    return console.log;
   } 
 )()('Boo!'); 
 ```
